@@ -2,14 +2,13 @@
 
 ## TL;DR — brzo pokretanje (Windows PowerShell)
 
-## TL;DR — brzo pokretanje (Windows PowerShell)
-
+## 1. varijanta
 ```powershell
 git clone https://github.com/lsinko/llm-context-project.git
 cd llm-context-project
 
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1 (ukoliko se dobije greška o disabled scripts, pokreće se 2. varijanta)
 python -m pip install -r requirements.txt
 
 python src/01_check_kaggle_csv.py
@@ -31,6 +30,9 @@ http://127.0.0.1:5000/repos
 
 ## 2. varijanta
 ```
+git clone https://github.com/lsinko/llm-context-project.git
+cd llm-context-project
+
 python -m venv .venv
 
 # Ako PowerShell blokira skripte, dopusti samo za ovu sesiju:
@@ -39,11 +41,32 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 
+python src/01_check_kaggle_csv.py
+python src/02_clean_kaggle.py
+python src/03_fetch_hf_candidates.py
+python src/04_integrate.py
+python src/05_analyze_visualize.py
+python src/06_store_db.py
+python src/07_api.py
+```
 
+## 3. varijanta
+```
+# Ako aktivacija ne radi, pokreni bez aktivacije:
 
-# Ako Activate.ps1 i dalje ne radi
-# .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-# .\.venv\Scripts\python.exe src/01_check_kaggle_csv.py  (i tako dalje za ostale skripte)
+git clone https://github.com/lsinko/llm-context-project.git
+cd llm-context-project
+
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe src/01_check_kaggle_csv.py
+.\.venv\Scripts\python.exe src/02_clean_kaggle.py
+.\.venv\Scripts\python.exe src/03_fetch_hf_candidates.py
+.\.venv\Scripts\python.exe src/04_integrate.py
+.\.venv\Scripts\python.exe src/05_analyze_visualize.py
+.\.venv\Scripts\python.exe src/06_store_db.py
+.\.venv\Scripts\python.exe src/07_api.py
+
 ```
 
 ## 1. Uvod i cilj projekta
