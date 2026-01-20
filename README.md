@@ -2,6 +2,9 @@
 
 ## TL;DR — brzo pokretanje (Windows PowerShell)
 
+## TL;DR — brzo pokretanje (Windows PowerShell)
+
+```powershell
 git clone https://github.com/lsinko/llm-context-project.git
 cd llm-context-project
 
