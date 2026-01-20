@@ -1,6 +1,7 @@
 # LLM Projekt — Projektna dokuemntacija 
 
 ## TL;DR — brzo pokretanje (Windows PowerShell)
+
 git clone https://github.com/lsinko/llm-context-project.git
 cd llm-context-project
 
