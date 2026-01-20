@@ -49,22 +49,21 @@ Skripta provjerava da je Kaggle CSV čitljiv i da sadrži očekivane stupce.
 python src/01_check_kaggle_csv.py
 ```
 
-### 5.2 Dohvat Hugging Face kandidata (API)
-
-Skripta dohvaća relevantne Hugging Face metapodatke i sprema ih u `data/raw/` kao JSON.
-
-```Windows PowerShell
-python src/02b_fetch_hf_candidates.py
-```
-
-### 5.3 Čišćenje Kaggle podataka
+### 5.2 Čišćenje Kaggle podataka
 
 Skripta čisti Kaggle CSV, standardizira tipove podataka te priprema stupce za integraciju.
 
 ```Windows PowerShell
-python src/03_clean_kaggle.py
+python src/02_clean_kaggle.py
 ```
+### 5.3 
+Dohvat Hugging Face kandidata (API)
 
+Skripta dohvaća relevantne Hugging Face metapodatke i sprema ih u `data/raw/` kao JSON.
+
+```Windows PowerShell
+python src/03_fetch_hf_candidates.py
+```
 ### 5.4 Integracija Kaggle + Hugging Face
 
 Skripta integrira Kaggle podatke i Hugging Face metapodatke te generira dva izlaza:
