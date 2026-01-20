@@ -35,7 +35,7 @@ cd llm-context-project
 
 python -m venv .venv
 
-# Ako PowerShell blokira skripte, dopusti samo za ovu sesiju:
+# Ako PowerShell blokira skripte, dopustiti samo za ovu sesiju:
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 .\.venv\Scripts\Activate.ps1
@@ -52,7 +52,7 @@ python src/07_api.py
 
 ## 3. varijanta
 ```
-# Ako aktivacija ne radi, pokreni bez aktivacije:
+# Ako aktivacija ne radi, pokrenti bez aktivacije:
 
 git clone https://github.com/lsinko/llm-context-project.git
 cd llm-context-project
@@ -68,6 +68,39 @@ python -m venv .venv
 .\.venv\Scripts\python.exe src/07_api.py
 
 ```
+
+## TL;DR — brzo pokretanje (Linux)
+### Preduvjeti
+- Instaliran **Python 3** (preporuka: 3.10+)
+- Instaliran **git**
+``` 
+git clone https://github.com/lsinko/llm-context-project.git
+cd llm-context-project
+python3 -m venv .venv
+source .venv/bin/activate
+
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python src/01_check_kaggle_csv.py
+python src/02_clean_kaggle.py
+python src/03_fetch_hf_candidates.py
+python src/04_integrate.py
+python src/05_analyze_visualize.py
+python src/06_store_db.py
+python src/07_api.py
+
+Nakon pokretanja API-ja testiranje:
+
+http://127.0.0.1:5000/health
+
+http://127.0.0.1:5000/models
+
+http://127.0.0.1:5000/repos
+```
+
+
+
+
 
 ## 1. Uvod i cilj projekta
 Cilj projekta je istražiti utjecaj veličine kontekstnog prozora (context_window) velikih jezičnih modela na njihove performanse i popularnost. Performanse se analiziraju na razini pojedinih redaka iz Kaggle skupa podataka (row-level), dok se popularnost promatra na razini službenih Hugging Face repozitorija (repo-level) putem metrika poput broja preuzimanja i broja “likeova”. Projekt obuhvaća prikupljanje podataka iz heterogenih izvora, njihovu obradu i integraciju, pohranu u bazu podataka, izradu REST API sučelja te bazičnu analizu i vizualizaciju.
