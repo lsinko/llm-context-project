@@ -1,0 +1,201 @@
+﻿kaggle_row_id,model_name,provider,hf_repo_id
+0,DeepSeek-4,Deepseek,
+1,Llama-8,Meta AI,
+2,Llama-5,Meta AI,
+3,DeepSeek-3,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+4,DeepSeek-8,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Llama-8B
+5,Llama-4,Meta AI,meta-llama/Llama-4-Scout-17B-16E-Instruct
+6,Nova-8,AWS,
+7,Claude-6,Anthropic,
+8,Llama-2,Meta AI,meta-llama/Llama-2-7b-hf
+9,Nova-6,AWS,
+10,Gemini-5,Google,
+11,GPT-6,OpenAI,
+12,Llama-9,Meta AI,
+13,GPT-3,OpenAI,
+14,Command-7,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+15,Command-9,Cohere,
+16,Claude-5,Anthropic,
+17,Claude-7,Anthropic,
+18,Llama-9,Meta AI,
+19,DeepSeek-2,Deepseek,deepseek-ai/DeepSeek-V2-Lite-Chat
+20,Command-9,Cohere,
+21,Command-2,Cohere,CohereLabs/command-a-vision-07-2025
+22,Gemini-9,Google,
+23,Gemini-5,Google,
+24,Gemini-4,Google,
+25,Command-7,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+26,Command-8,Cohere,
+27,DeepSeek-3,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+28,Mistral-1,Mistral AI,
+29,Command-2,Cohere,CohereLabs/command-a-vision-07-2025
+30,Nova-4,AWS,
+31,Gemini-6,Google,
+32,Mistral-4,Mistral AI,
+33,Mistral-2,Mistral AI,
+34,Gemini-2,Google,
+35,Gemini-4,Google,
+36,Mistral-8,Mistral AI,
+37,Mistral-7,Mistral AI,
+38,Command-9,Cohere,
+39,Mistral-8,Mistral AI,
+40,Llama-2,Meta AI,meta-llama/Llama-2-7b-hf
+41,DeepSeek-5,Deepseek,deepseek-ai/deepseek-coder-5.7bmqa-base
+42,Nova-9,AWS,
+43,Command-9,Cohere,
+44,Llama-1,Meta AI,
+45,GPT-7,OpenAI,
+46,GPT-8,OpenAI,
+47,GPT-8,OpenAI,
+48,Nova-3,AWS,
+49,GPT-8,OpenAI,
+50,Claude-3,Anthropic,
+51,GPT-5,OpenAI,
+52,Gemini-7,Google,
+53,Gemini-9,Google,
+54,Command-7,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+55,GPT-8,OpenAI,
+56,Command-2,Cohere,CohereLabs/command-a-vision-07-2025
+57,GPT-7,OpenAI,
+58,DeepSeek-8,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Llama-8B
+59,Llama-3,Meta AI,meta-llama/Llama-3.1-8B-Instruct
+60,Command-8,Cohere,
+61,Mistral-3,Mistral AI,
+62,GPT-3,OpenAI,
+63,Llama-3,Meta AI,meta-llama/Llama-3.1-8B-Instruct
+64,GPT-5,OpenAI,
+65,Gemini-7,Google,
+66,DeepSeek-7,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+67,Claude-9,Anthropic,
+68,DeepSeek-3,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+69,DeepSeek-7,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+70,GPT-4,OpenAI,
+71,Llama-4,Meta AI,meta-llama/Llama-4-Scout-17B-16E-Instruct
+72,Mistral-5,Mistral AI,
+73,DeepSeek-7,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+74,Llama-4,Meta AI,meta-llama/Llama-4-Scout-17B-16E-Instruct
+75,Llama-7,Meta AI,meta-llama/CodeLlama-7b-Instruct-hf
+76,Claude-3,Anthropic,
+77,Mistral-2,Mistral AI,
+78,Gemini-9,Google,
+79,Llama-6,Meta AI,
+80,Command-4,Cohere,CohereLabs/c4ai-command-r-v01-4bit
+81,Mistral-7,Mistral AI,
+82,Command-9,Cohere,
+83,DeepSeek-1,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+84,GPT-9,OpenAI,
+85,Claude-9,Anthropic,
+86,Command-9,Cohere,
+87,Claude-7,Anthropic,
+88,Mistral-8,Mistral AI,
+89,Claude-9,Anthropic,
+90,Mistral-5,Mistral AI,
+91,GPT-3,OpenAI,
+92,Gemini-8,Google,
+93,DeepSeek-6,Deepseek,deepseek-ai/deepseek-coder-6.7b-instruct
+94,Nova-8,AWS,
+95,GPT-4,OpenAI,
+96,GPT-1,OpenAI,
+97,Gemini-4,Google,
+98,Command-7,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+99,Gemini-3,Google,
+100,GPT-5,OpenAI,
+101,GPT-8,OpenAI,
+102,GPT-1,OpenAI,
+103,Gemini-2,Google,
+104,Command-6,Cohere,
+105,DeepSeek-5,Deepseek,deepseek-ai/deepseek-coder-5.7bmqa-base
+106,Nova-1,AWS,
+107,GPT-3,OpenAI,
+108,Mistral-2,Mistral AI,
+109,Llama-6,Meta AI,
+110,Nova-7,AWS,
+111,Command-7,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+112,Claude-8,Anthropic,
+113,Claude-1,Anthropic,
+114,DeepSeek-6,Deepseek,deepseek-ai/deepseek-coder-6.7b-instruct
+115,Nova-5,AWS,
+116,Command-2,Cohere,CohereLabs/command-a-vision-07-2025
+117,Mistral-6,Mistral AI,
+118,Claude-1,Anthropic,
+119,GPT-6,OpenAI,
+120,Nova-3,AWS,
+121,Command-4,Cohere,CohereLabs/c4ai-command-r-v01-4bit
+122,Claude-3,Anthropic,
+123,DeepSeek-3,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+124,Command-7,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+125,Command-9,Cohere,
+126,GPT-8,OpenAI,
+127,Nova-7,AWS,
+128,Gemini-8,Google,
+129,GPT-9,OpenAI,
+130,GPT-2,OpenAI,
+131,DeepSeek-3,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+132,DeepSeek-9,Deepseek,
+133,Command-1,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+134,Gemini-1,Google,
+135,Nova-5,AWS,
+136,Llama-7,Meta AI,meta-llama/CodeLlama-7b-Instruct-hf
+137,GPT-9,OpenAI,
+138,Claude-3,Anthropic,
+139,Nova-3,AWS,
+140,Command-8,Cohere,
+141,Mistral-8,Mistral AI,
+142,GPT-8,OpenAI,
+143,Command-1,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+144,Nova-4,AWS,
+145,Mistral-8,Mistral AI,
+146,Command-3,Cohere,
+147,Nova-9,AWS,
+148,Claude-9,Anthropic,
+149,Llama-2,Meta AI,meta-llama/Llama-2-7b-hf
+150,Nova-2,AWS,
+151,Gemini-6,Google,
+152,Claude-9,Anthropic,
+153,Command-1,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+154,Command-1,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+155,Mistral-5,Mistral AI,
+156,Nova-4,AWS,
+157,Nova-8,AWS,
+158,DeepSeek-3,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+159,GPT-1,OpenAI,
+160,Nova-3,AWS,
+161,Mistral-7,Mistral AI,
+162,Mistral-6,Mistral AI,
+163,Mistral-3,Mistral AI,
+164,Mistral-8,Mistral AI,
+165,Claude-2,Anthropic,
+166,Llama-1,Meta AI,
+167,Command-1,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+168,Llama-3,Meta AI,meta-llama/Llama-3.1-8B-Instruct
+169,Command-3,Cohere,
+170,Nova-1,AWS,
+171,Nova-1,AWS,
+172,Command-5,Cohere,
+173,Mistral-3,Mistral AI,
+174,Command-9,Cohere,
+175,Llama-8,Meta AI,
+176,Llama-1,Meta AI,
+177,Mistral-5,Mistral AI,
+178,DeepSeek-3,Deepseek,deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+179,Command-1,Cohere,CohereLabs/c4ai-command-r7b-12-2024
+180,Command-5,Cohere,
+181,Nova-7,AWS,
+182,GPT-3,OpenAI,
+183,Nova-2,AWS,
+184,GPT-6,OpenAI,
+185,Gemini-3,Google,
+186,Nova-8,AWS,
+187,Gemini-6,Google,
+188,DeepSeek-2,Deepseek,deepseek-ai/DeepSeek-V2-Lite-Chat
+189,DeepSeek-2,Deepseek,deepseek-ai/DeepSeek-V2-Lite-Chat
+190,Gemini-1,Google,
+191,Nova-1,AWS,
+192,GPT-6,OpenAI,
+193,Nova-7,AWS,
+194,Llama-7,Meta AI,meta-llama/CodeLlama-7b-Instruct-hf
+195,Gemini-3,Google,
+196,Gemini-9,Google,
+197,Nova-7,AWS,
+198,GPT-4,OpenAI,
+199,Llama-4,Meta AI,meta-llama/Llama-4-Scout-17B-16E-Instruct

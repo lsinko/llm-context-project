@@ -1,6 +1,3 @@
 .venv/
 __pycache__/
 *.pyc
-data/processed/*.db
-data/processed/*.csv
-reports/figures/*.png
