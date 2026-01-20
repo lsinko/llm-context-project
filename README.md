@@ -1,3 +1,29 @@
+## TL;DR — brzo pokretanje (Windows PowerShell)
+
+```powershell
+git clone https://github.com/lsinko/llm-context-project.git
+cd llm-context-project
+
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+
+python src/01_check_kaggle_csv.py
+python src/02_clean_kaggle.py
+python src/03_fetch_hf_candidates.py
+python src/04_integrate.py
+python src/05_analyze_visualize.py
+python src/06_store_db.py
+python src/07_api.py
+
+Nakon pokretanja API-ja testiranje:
+
+http://127.0.0.1:5000/health
+
+http://127.0.0.1:5000/models
+
+http://127.0.0.1:5000/repos
+
 # LLM Projekt — Projektna dokuemntacija 
 
 ## 1. Uvod i cilj projekta
