@@ -27,6 +27,7 @@ http://127.0.0.1:5000/health
 http://127.0.0.1:5000/models
 
 http://127.0.0.1:5000/repos
+´´´
 
 ## 1. Uvod i cilj projekta
 Cilj projekta je istražiti utjecaj veličine kontekstnog prozora (context_window) velikih jezičnih modela na njihove performanse i popularnost. Performanse se analiziraju na razini pojedinih redaka iz Kaggle skupa podataka (row-level), dok se popularnost promatra na razini službenih Hugging Face repozitorija (repo-level) putem metrika poput broja preuzimanja i broja “likeova”. Projekt obuhvaća prikupljanje podataka iz heterogenih izvora, njihovu obradu i integraciju, pohranu u bazu podataka, izradu REST API sučelja te bazičnu analizu i vizualizaciju.
