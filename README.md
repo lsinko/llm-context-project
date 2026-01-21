@@ -8,7 +8,7 @@ git clone https://github.com/lsinko/llm-context-project.git
 cd llm-context-project
 
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1 (ukoliko se dobije greška o disabled scripts, pokreće se 2. varijanta)
+.\.venv\Scripts\Activate.ps1 #ukoliko se dobije greška o disabled scripts, pokreće se 2. varijanta
 python -m pip install -r requirements.txt
 
 python src/01_check_kaggle_csv.py
