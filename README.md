@@ -35,7 +35,7 @@ cd llm-context-project
 
 python -m venv .venv
 
-# Ako PowerShell blokira skripte, dopustiti samo za ovu sesiju:
+#Ako PowerShell blokira skripte, dopustiti samo za ovu sesiju:
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 .\.venv\Scripts\Activate.ps1
@@ -52,7 +52,7 @@ python src/07_api.py
 
 ## 3. varijanta
 ```
-# Ako aktivacija ne radi, pokrenti bez aktivacije:
+#Ako aktivacija ne radi, pokrenti bez aktivacije:
 
 git clone https://github.com/lsinko/llm-context-project.git
 cd llm-context-project
